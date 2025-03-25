@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Throw</h1>
+    {% comment %} <form action="http://127.0.0.1:8000/catch/" method="GET"> {% endcomment %}
+    {% comment %} <form action="/catch/" method="GET"> {% endcomment %}
+    <form action="{% url "articles:catch" %}" method="GET">
+        <input type="text" name="message">
+        <input type="submit">
+    </form>
+</body>
+</html>
