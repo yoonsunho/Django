@@ -467,7 +467,7 @@ $RECYCLE.BIN/
 *.cab
 *.msi
 *.msix
-*.msm
+*.msmc:\Users\SSAFY\Desktop\강사님\django\추가자료
 *.msp
 
 # Windows shortcuts
