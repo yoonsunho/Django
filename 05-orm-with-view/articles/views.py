@@ -1,4 +1,4 @@
-from django.shortcuts import render,redirect
+from django.shortcuts import render,redirect  # 여기 추가 해줘야함
 from .models import Article
 
 
