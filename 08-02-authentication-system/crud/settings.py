@@ -20,7 +20,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-s1z#d840_9k)9-2ygm#hr^jfl_f)534grc6qn)m7^@odu0-khf'
+SECRET_KEY = (
+    'django-insecure-s1z#d840_9k)9-2ygm#hr^jfl_f)534grc6qn)m7^@odu0-khf'
+)
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -31,11 +33,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    # 직접 생성한 app
     'articles',
-    # 설치한 앱(3rd party library)
+    'accounts',
     'django_extensions',
-    # 내장 앱앱
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -108,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ko-kr' # 수정
 
 TIME_ZONE = 'UTC'
 
@@ -126,3 +126,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTH_USER_MODEL = 'accounts.User'   #  더이상 auth앱의 User클래스에는 aauth사용자가 쓰고 잇지 않음
+                                    # 사용자 수정해야함
+                                    # UserCreateForm import햇 함수 덮어써야함
