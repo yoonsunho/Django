@@ -23,6 +23,7 @@ class ArticleSerializer(serializers.ModelSerializer):
     
     # 새로운 필드 생성
     num_of_comments = serializers.SerializerMethodField()
+    num_of_comments = serializers.SerializerMethodField()
     
     class Meta:
         model = Article

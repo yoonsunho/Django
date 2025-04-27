@@ -15,7 +15,7 @@ def article_list(request):
         # 우리가 만든 모델 시리얼라이저로 변환 진행
         serializer = ArticleListSerializer(articles, many= True)
         # DRF에서 제공하는 Response를 사용해 JSON데이터를 응답
-        # JSON 데이터는 SERIALIZR의 DATA속성에 존재
+        # JSON 데이터는 serializer의  DATA속성에 존재
         return Response(serializer.data)
     
     # 게시글 생성 요청에 대한 응답
@@ -45,9 +45,9 @@ def article_detail(request, article_pk):
     elif request.method =='PUT':
         # 사용자가 보낸 수정 데이터를 변환
         serializer = ArticleSerializer(article, data = request.data, partial = True)    # 부분수정 가능
-        if serializer.is_valid():
+        if serializer.is_valid(raise_exception = True):
             serializer.save()
             return Response(serializer.data)
-        return Response(serializer.errors, status = status.HTTP_400_BAD_REQUEST)
+        # return Response(serializer.errors, status = status.HTTP_400_BAD_REQUEST)
         
     
