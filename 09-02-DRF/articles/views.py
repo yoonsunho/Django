@@ -2,7 +2,7 @@ from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
 
-from django.db.models import Count
+from django.db.models import Count      ## 댓글 갯수 출력하기 위해 필요
 
 from .models import Article, Comment
 from .serializers import ArticleListSerializer, ArticleSerializer, CommentSerializer
@@ -38,8 +38,8 @@ def article_list(request):
 @api_view(['GET', 'DELETE', 'PUT'])
 def article_detail(request, article_pk):
     # 단일 게시글 데이터 조회
-    article = Article.objects.get(pk=article_pk)
-    # 단일 게시글 데이터 조회 + 그 단일 게시글에 작성된 댓글의 개수도 계산해달라고 db에ㅔ 한번에 요청
+    # article = Article.objects.get(pk=article_pk)
+    # 단일 게시글 데이터 조회 + 그 단일 게시글에 작성된 댓글의 개수도 계산해달라고 db에 한번에 요청
     article = Article.objects.annotate(num_of_comments = Count('comment')).get(pk = article_pk)
     # 기존의 article객체에는 없었지만, 결과에만 잠시 포함된 데이터 (실제 article테이블의 컬럼이 변한것 아님)
     print(article.num_of_comments)
