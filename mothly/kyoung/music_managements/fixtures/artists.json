@@ -1,0 +1,107 @@
+[
+  {
+    "model": "music_managements.artist",
+    "pk": 1,
+    "fields": {
+      "name": "Velvet Horizon"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 2,
+    "fields": {
+      "name": "Analog Dreams"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 3,
+    "fields": {
+      "name": "Retro Vision"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 4,
+    "fields": {
+      "name": "Cassette Culture"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 5,
+    "fields": {
+      "name": "Vinyl Symphony"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 6,
+    "fields": {
+      "name": "Neon Nostalgia"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 7,
+    "fields": {
+      "name": "Memory Lane"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 8,
+    "fields": {
+      "name": "Vintage Vibes"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 9,
+    "fields": {
+      "name": "Classic Echo"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 10,
+    "fields": {
+      "name": "Retro Pulse"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 11,
+    "fields": {
+      "name": "Time Capsule"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 12,
+    "fields": {
+      "name": "Analog Heart"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 13,
+    "fields": {
+      "name": "Vintage Soul"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 14,
+    "fields": {
+      "name": "Retro Rhythm"
+    }
+  },
+  {
+    "model": "music_managements.artist",
+    "pk": 15,
+    "fields": {
+      "name": "Classic Groove"
+    }
+  }
+] 
