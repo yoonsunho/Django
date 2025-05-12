@@ -23,6 +23,7 @@ class GenreListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Genre
         fields = '__all__'
+    
 
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
