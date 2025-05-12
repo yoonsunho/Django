@@ -8,5 +8,6 @@ urlpatterns = [
     path('albums/<int:pk>/reviews/<int:review_pk>/', views.review_retrieve_update_delete, name='review_retrieve_update_delete'),
     path('albums/<int:pk>/reviews/<str:sort_by>/', views.review_sort_by, name='review_sort_by'),
     path('artists/<int:artist_pk>/', views.artist_retrieve_update_delete, name='artist_retrieve_update_delete'),
+    path('genres/<int:genre_id>/',views.genre_albums,)
 ]
  

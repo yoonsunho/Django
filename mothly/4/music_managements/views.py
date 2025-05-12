@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from .models import Artist, Genre, Album, Review
 from rest_framework.decorators import api_view
-from .serializers import ArtistDetailSerializer, GenreSerializer, AlbumSerializer, ReviewSerializer, AlbumCreateSerializer, AlbumDetailSerializer
+from .serializers import ArtistDetailSerializer, GenreSerializer, AlbumSerializer, ReviewSerializer, AlbumCreateSerializer, AlbumDetailSerializer, GenreListSerializer
 from django.db.models import Count
 
 # Create your views here.
@@ -98,4 +98,10 @@ def artist_retrieve_update_delete(request, artist_pk):
         serializer = ArtistDetailSerializer(artist)
         return Response(serializer.data)
    
+@api_view(['GET',])
+def genre_albums(request,genre_pk):
 
+    genre = get_object_or_404(Genre,pk = genre_pk)
+
+    serializer = GenreListSerializer(genre)
+    return Response(serializer.data)

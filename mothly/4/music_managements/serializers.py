@@ -13,6 +13,17 @@ class GenreSerializer(serializers.ModelSerializer):
         model = Genre
         fields = '__all__'
 
+class GenreListSerializer(serializers.ModelSerializer):
+
+    class AlbumTitleSerializer(serializers.ModelSerializer):
+        class Meta:
+            model = Album
+            fields = ('id','title',)
+
+    class Meta:
+        model = Genre
+        fields = '__all__'
+
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
         model = Review
