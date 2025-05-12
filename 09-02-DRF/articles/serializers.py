@@ -36,6 +36,7 @@ class ArticleSerializer(serializers.ModelSerializer):
         # 여기서 obj는 특정 게시글 인스턴스(3번 게시글이면 3번 객체..)
         # view함수에서 annotate 해서 생긴 새로운 속성 결과룰 사용할 수 있게 됨
         return obj.num_of_comments
+        
 
 # 댓글의 전체 필드를 직렬화 하는 클래스
 class CommentSerializer(serializers.ModelSerializer):

@@ -1,0 +1,452 @@
+[
+  {
+    "model": "music_managements.review",
+    "pk": 1,
+    "fields": {
+      "album": 1,
+      "content": "A perfect throwback to the early 90s sound. The production quality really captures that vintage warmth.",
+      "rating": 5,
+      "created_at": "1991-04-15T14:30:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 2,
+    "fields": {
+      "album": 1,
+      "content": "Solid album with great nostalgic vibes. Some tracks could be more polished but overall very enjoyable.",
+      "rating": 4,
+      "created_at": "1991-04-20T10:15:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 3,
+    "fields": {
+      "album": 1,
+      "content": "The perfect blend of old school and new sounds. Really takes me back to the golden era.",
+      "rating": 5,
+      "created_at": "1991-05-01T16:45:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 4,
+    "fields": {
+      "album": 2,
+      "content": "Innovative use of classic electronic elements. The production is crisp and clean.",
+      "rating": 4,
+      "created_at": "1992-07-01T09:20:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 5,
+    "fields": {
+      "album": 2,
+      "content": "A fresh take on retro sounds. Every track brings something unique to the table.",
+      "rating": 5,
+      "created_at": "1992-07-15T11:30:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 6,
+    "fields": {
+      "album": 2,
+      "content": "Great album that really captures the essence of early 90s electronic music.",
+      "rating": 4,
+      "created_at": "1992-08-01T13:40:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 7,
+    "fields": {
+      "album": 3,
+      "content": "Perfect tribute to the grunge era. The guitar work is particularly impressive.",
+      "rating": 5,
+      "created_at": "1993-10-10T15:50:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 8,
+    "fields": {
+      "album": 3,
+      "content": "Raw energy and authentic sound. Really captures the spirit of the early 90s.",
+      "rating": 5,
+      "created_at": "1993-10-15T12:10:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 9,
+    "fields": {
+      "album": 3,
+      "content": "Solid album with great riffs and powerful vocals. A must-listen for rock fans.",
+      "rating": 4,
+      "created_at": "1993-11-01T17:25:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 10,
+    "fields": {
+      "album": 4,
+      "content": "Takes me right back to making mixtapes in my room. Pure nostalgia.",
+      "rating": 5,
+      "created_at": "1994-05-01T10:05:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 11,
+    "fields": {
+      "album": 4,
+      "content": "Great collection of tracks that really capture that mixtape feeling.",
+      "rating": 4,
+      "created_at": "1994-05-15T09:15:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 12,
+    "fields": {
+      "album": 4,
+      "content": "Perfect blend of different styles. Really feels like a personal mixtape.",
+      "rating": 5,
+      "created_at": "1994-06-01T14:20:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 13,
+    "fields": {
+      "album": 5,
+      "content": "The warm analog sound really comes through. Excellent production quality.",
+      "rating": 5,
+      "created_at": "1995-08-01T16:30:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 14,
+    "fields": {
+      "album": 5,
+      "content": "Soulful and authentic. The vinyl-inspired production adds great character.",
+      "rating": 4,
+      "created_at": "1995-08-15T11:45:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 15,
+    "fields": {
+      "album": 5,
+      "content": "Rich, warm tones throughout. A great tribute to the vinyl era.",
+      "rating": 5,
+      "created_at": "1995-09-01T13:20:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 16,
+    "fields": {
+      "album": 6,
+      "content": "Captures the energy of 90s dance music perfectly. Great production.",
+      "rating": 4,
+      "created_at": "1996-12-01T15:35:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 17,
+    "fields": {
+      "album": 6,
+      "content": "The perfect mix of retro dance styles. Every track is a potential hit.",
+      "rating": 5,
+      "created_at": "1996-12-15T10:50:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 18,
+    "fields": {
+      "album": 6,
+      "content": "Brings back memories of the best dance clubs of the 90s.",
+      "rating": 4,
+      "created_at": "1997-01-01T14:15:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 19,
+    "fields": {
+      "album": 7,
+      "content": "Authentic old school hip hop vibes. The beats are incredible.",
+      "rating": 5,
+      "created_at": "1997-03-15T16:40:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 20,
+    "fields": {
+      "album": 7,
+      "content": "Perfect blend of hip hop and R&B elements. Really takes you back.",
+      "rating": 4,
+      "created_at": "1997-04-01T09:25:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 21,
+    "fields": {
+      "album": 7,
+      "content": "Solid production and great throwback vibes. A must-listen.",
+      "rating": 5,
+      "created_at": "1997-04-15T11:30:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 22,
+    "fields": {
+      "album": 8,
+      "content": "Perfectly captures the essence of 90s music. Every track is a gem.",
+      "rating": 5,
+      "created_at": "1998-09-15T14:45:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 23,
+    "fields": {
+      "album": 8,
+      "content": "A great collection of tracks that really define the era.",
+      "rating": 4,
+      "created_at": "1998-10-01T16:20:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 24,
+    "fields": {
+      "album": 8,
+      "content": "Classic vibes with modern production quality. Excellent album.",
+      "rating": 5,
+      "created_at": "1998-10-15T09:35:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 25,
+    "fields": {
+      "album": 9,
+      "content": "Powerful blend of rock and industrial elements. Very innovative.",
+      "rating": 4,
+      "created_at": "1991-10-01T11:50:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 26,
+    "fields": {
+      "album": 9,
+      "content": "Dark and atmospheric. Really pushes the boundaries of the genre.",
+      "rating": 5,
+      "created_at": "1991-10-15T14:15:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 27,
+    "fields": {
+      "album": 9,
+      "content": "Excellent production and powerful songwriting. A standout album.",
+      "rating": 5,
+      "created_at": "1991-11-01T16:30:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 28,
+    "fields": {
+      "album": 10,
+      "content": "Perfect fusion of R&B and new jack swing. The grooves are infectious.",
+      "rating": 5,
+      "created_at": "1992-11-01T09:45:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 29,
+    "fields": {
+      "album": 10,
+      "content": "Smooth production and great vocal arrangements. Classic 90s R&B.",
+      "rating": 4,
+      "created_at": "1992-11-15T11:20:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 30,
+    "fields": {
+      "album": 10,
+      "content": "The perfect blend of rhythm and soul. Every track is a potential hit.",
+      "rating": 5,
+      "created_at": "1992-12-01T14:35:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 31,
+    "fields": {
+      "album": 11,
+      "content": "A fantastic journey through different 90s music styles.",
+      "rating": 5,
+      "created_at": "1993-12-01T10:30:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 32,
+    "fields": {
+      "album": 11,
+      "content": "Great variety and solid production throughout. Really enjoyable.",
+      "rating": 4,
+      "created_at": "1993-12-15T15:45:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 33,
+    "fields": {
+      "album": 11,
+      "content": "Excellent compilation of various 90s sounds. Very well done.",
+      "rating": 5,
+      "created_at": "1994-01-01T12:20:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 34,
+    "fields": {
+      "album": 12,
+      "content": "Smooth and soulful. The jazz elements really shine through.",
+      "rating": 5,
+      "created_at": "1995-01-15T09:35:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 35,
+    "fields": {
+      "album": 12,
+      "content": "Perfect blend of soul and jazz. The production is top-notch.",
+      "rating": 4,
+      "created_at": "1995-02-01T11:50:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 36,
+    "fields": {
+      "album": 12,
+      "content": "Rich, warm sound with excellent musicianship throughout.",
+      "rating": 5,
+      "created_at": "1995-02-15T14:15:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 37,
+    "fields": {
+      "album": 13,
+      "content": "Classic soul vibes with modern production. Excellent album.",
+      "rating": 5,
+      "created_at": "1995-02-01T16:30:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 38,
+    "fields": {
+      "album": 13,
+      "content": "Powerful vocals and great arrangements. Really captures the soul sound.",
+      "rating": 4,
+      "created_at": "1995-02-15T09:45:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 39,
+    "fields": {
+      "album": 13,
+      "content": "Smooth and soulful throughout. A great tribute to classic soul.",
+      "rating": 5,
+      "created_at": "1995-03-01T11:20:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 40,
+    "fields": {
+      "album": 14,
+      "content": "Perfect blend of hip hop and R&B. The beats are incredible.",
+      "rating": 5,
+      "created_at": "1996-03-15T14:35:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 41,
+    "fields": {
+      "album": 14,
+      "content": "Smooth production and great rhythms. Really enjoyable album.",
+      "rating": 4,
+      "created_at": "1996-04-01T10:30:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 42,
+    "fields": {
+      "album": 14,
+      "content": "Great mix of styles with solid production throughout.",
+      "rating": 5,
+      "created_at": "1996-04-15T15:45:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 43,
+    "fields": {
+      "album": 15,
+      "content": "A perfect collection of 90s-inspired tracks. Every song is memorable.",
+      "rating": 5,
+      "created_at": "1997-04-01T12:20:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 44,
+    "fields": {
+      "album": 15,
+      "content": "Great production and solid songwriting throughout. A must-listen.",
+      "rating": 4,
+      "created_at": "1997-04-15T09:35:00Z"
+    }
+  },
+  {
+    "model": "music_managements.review",
+    "pk": 45,
+    "fields": {
+      "album": 15,
+      "content": "Captures the golden age of 90s music perfectly. Excellent album.",
+      "rating": 5,
+      "created_at": "1997-05-01T11:50:00Z"
+    }
+  }
+] 
